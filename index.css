@@ -1,0 +1,70 @@
+body{
+    /* border: 1px solid black; */
+    height: 1200px;
+}
+.nav{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(56, 37, 37, 0.705);
+}
+ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid blue; */
+    align-items: center;
+    
+}
+ul>li{
+    
+    /* border: 1px solid black; */
+    padding: 5px;
+    margin: 5px;
+}
+ul>li>a{
+  margin: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
+ul>li>a:hover{
+    background-color: rgb(250, 246, 239);
+    color: black;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+.main{
+    width: 100%;
+    background:url(./logo/background.jpg) ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_child{
+    
+     background-color: blue;
+     width: 455px;
+     height: 340px;
+     /* border: 1px solid black; */
+     background: url(./logo/watch.jpg);
+}
+.foter{
+    width: 100%;
+    height: 150px;
+    background-color:gray;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.foter>li{
+  margin: 15px;
+}
+.foter>li>a:hover{
+    background-color: rgb(250, 246, 239);
+    color: black;
+}  
+
+
